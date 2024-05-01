@@ -1,6 +1,6 @@
 # Initialize image data generator with rescaling
 train_data_gen = ImageDataGenerator(rescale=1./255)
-validation_data_gen = ImageDataGenerator(rescale=1./255)
+validation_data_gen = ImageDataGenerator(rescale=1./255 )
 
 # Preprocess all test images
 train_generator = train_data_gen.flow_from_directory(
