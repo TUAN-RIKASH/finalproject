@@ -6,3 +6,4 @@ class Employee(Document):
     department = StringField(required=True) 
     address = StringField(required=True)
     contact_number = StringField(required=True)
+
